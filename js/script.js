@@ -6,7 +6,6 @@
   btn.addEventListener('click',function(){root.setAttribute('data-theme',isDark()?'light':'dark');sync()});
   sync();
 
-  document.getElementById('print').addEventListener('click',function(){window.print()});
   document.getElementById('yr').textContent=new Date().getFullYear();
 
   // highlight the current section in the side nav
